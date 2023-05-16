@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://data.gov.ua/dataset/",
+			"url": "https://data.gov.ua/dataset/06779371-308f-42d7-895e-5a39833375f0",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
