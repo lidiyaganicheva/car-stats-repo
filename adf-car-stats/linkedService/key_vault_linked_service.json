@@ -1,0 +1,10 @@
+{
+	"name": "key_vault_linked_service",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://carStatsKeyVault.vault.azure.net/"
+		}
+	}
+}
