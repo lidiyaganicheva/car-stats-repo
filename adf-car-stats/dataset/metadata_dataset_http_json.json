@@ -1,5 +1,5 @@
 {
-	"name": "Json1",
+	"name": "metadata_dataset_http_json",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "source_http_connection",

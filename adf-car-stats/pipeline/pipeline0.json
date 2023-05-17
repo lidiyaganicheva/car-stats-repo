@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Copy metadata file to dataset folder",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -38,13 +38,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Json1",
+						"referenceName": "metadata_dataset_http_json",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Json_adls_output",
+						"referenceName": "metadata_Json_adls_output",
 						"type": "DatasetReference"
 					}
 				]

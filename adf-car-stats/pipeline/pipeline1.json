@@ -29,7 +29,7 @@
 						}
 					},
 					"dataset": {
-						"referenceName": "Json_adls_output",
+						"referenceName": "metadata_Json_adls_output",
 						"type": "DatasetReference"
 					}
 				}

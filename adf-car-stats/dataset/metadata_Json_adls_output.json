@@ -1,5 +1,5 @@
 {
-	"name": "Json_adls_output",
+	"name": "metadata_Json_adls_output",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage",
