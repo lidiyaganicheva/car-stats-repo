@@ -1,0 +1,27 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "source_http_connection",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"Path": "https://data.gov.ua/dataset/06779371-308f-42d7-895e-5a39833375f0/"
+			}
+		},
+		"parameters": {
+			"Path": {
+				"type": "string",
+				"defaultValue": "@dataset().Path"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "datapackage"
+			}
+		},
+		"schema": {}
+	}
+}
