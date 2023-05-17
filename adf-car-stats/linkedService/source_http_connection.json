@@ -3,8 +3,7 @@
 	"properties": {
 		"parameters": {
 			"Path": {
-				"type": "string",
-				"defaultValue": "https://data.gov.ua/dataset/06779371-308f-42d7-895e-5a39833375f0/"
+				"type": "string"
 			}
 		},
 		"annotations": [],
