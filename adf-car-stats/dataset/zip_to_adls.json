@@ -1,0 +1,18 @@
+{
+	"name": "zip_to_adls",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "zip",
+				"fileSystem": "car-sales"
+			}
+		}
+	}
+}
