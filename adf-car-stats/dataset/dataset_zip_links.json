@@ -1,0 +1,23 @@
+{
+	"name": "dataset_zip_links",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "source_http_connection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "skip([item(), 'https://data.gov.ua/dataset/06779371-308f-42d7-895e-5a39833375f0/'])",
+					"type": "Expression"
+				}
+			},
+			"compression": {
+				"type": "ZipDeflate"
+			}
+		}
+	}
+}
